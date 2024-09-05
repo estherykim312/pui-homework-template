@@ -21,6 +21,7 @@
 
   .center-text{
     text-align: center;
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 23px;
+    margin: 20px auto;
+    width: 100%;
   }
