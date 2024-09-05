@@ -3,7 +3,7 @@
     color: black;
 }
 
-#products-highlight{
+.highlight{
     font-weight: bold;
     background-color: yellow;
 }
