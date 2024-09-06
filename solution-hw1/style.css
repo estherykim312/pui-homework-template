@@ -5,10 +5,10 @@ body{
 }
 
 header{
-  display: flex;
+  display: block; /*stacks them on top of each other*/
   justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+  align-items: center; /*or text-align: center;?*/
+  /*padding: 10px;*/
   /*margin-bottom: 20px;*/
 }
 
