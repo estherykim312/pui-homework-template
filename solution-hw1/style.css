@@ -4,15 +4,6 @@ body{
   font-size: 14px;
 }
 
-header{
-  display: block; /*stacks them on top of each other*/
-  text-align: center;
-  /*justify-content: space-between;*/
-  align-items: center; /*or text-align: center;?*/
-  /*padding: 10px;*/
-  /*margin-bottom: 20px;*/
-}
-
 #logo{
   position: absolute;
   top: 0;
@@ -20,6 +11,15 @@ header{
   margin: 10px;
   /*margin-left: 5px;
   margin-bottom: 10px;*/
+}
+
+header{
+  display: block; /*stacks them on top of each other*/
+  /*text-align: center;*/
+  /*justify-content: space-between;*/
+  /*align-items: center; *//*or text-align: center;?*/
+  /*padding: 10px;*/
+  /*margin-bottom: 20px;*/
 }
 
 .navbar {
