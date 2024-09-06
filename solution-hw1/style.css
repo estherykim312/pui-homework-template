@@ -83,8 +83,8 @@ header {
 }*/
 
 .product-image{
-  width: 150px;
+  width: 200px;
   margin: 10px 0;
   border: 2px solid black;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
 }
