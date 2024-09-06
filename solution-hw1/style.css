@@ -1,10 +1,16 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+
 header{
   margin-bottom: 20px;
 }
 
-/*#logo{
+#logo{
   margin-bottom: 10px;
-}*/
+}
 
 .navbar {
     display: block;
@@ -19,7 +25,7 @@ header{
   .nav-link {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px 10px;
   }
   
@@ -41,11 +47,6 @@ header{
   .center-text{
     font-size: 23px;
   }
-
-body{
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
 
 .product-gallery{
   margin: 0 auto;
