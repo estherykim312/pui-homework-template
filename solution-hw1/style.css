@@ -13,7 +13,7 @@ header {
 
 #logo{
   align-self: flex-start;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .black-line {
@@ -55,8 +55,8 @@ header {
     border-radius: 5px; 
   }
 
-  .mainpage-title{
-    font-size: 26px
+  .mainpage-header{
+    font-size: 25px;
   }
 
 
@@ -80,5 +80,5 @@ header {
 .product-image{
   width: 150px;
   margin: 10px 0;
-  border: 1px solid black;
+  border: 2px solid black;
 }
