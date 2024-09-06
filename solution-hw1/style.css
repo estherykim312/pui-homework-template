@@ -1,3 +1,11 @@
+header{
+  margin-bottom: 20px;
+}
+
+#logo{
+  margin-bottom: 10px;
+}
+
 .navbar {
     display: flex;
     justify-content: center; 
@@ -31,8 +39,17 @@
     font-size: 23px;
   }
 
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-  mark{
-    background-color: yellow; 
-    color: black;
-  }
+.product-gallery{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.product-image{
+  width: 150px;
+  margin: 10px 0;
+}
