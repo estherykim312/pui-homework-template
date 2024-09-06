@@ -15,18 +15,6 @@ body{
   margin-left: 10px;
 }
 
-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  /*text-align: center;*/
-  /*justify-content: space-between;*/
-  /*align-items: center; /*or text-align: center;?*/
-  /*padding: 10px;*/
-  /*margin-bottom: 20px;*/
-}
 
 .navbar {
     display: flex;
