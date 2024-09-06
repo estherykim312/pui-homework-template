@@ -4,11 +4,15 @@ body{
   font-size: 14px;
 }
 
+.header-container{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+}
+
 #logo{
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 10px;
+  margin-left: 10px;
 }
 
 header{
