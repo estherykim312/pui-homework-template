@@ -14,19 +14,22 @@ header{
 }
 
 #logo{
+  position: absolute;
   top: 0;
   left: 0; 
   margin: 10px;*/
-  margin-left: 5px;
-  margin-bottom: 10px;
+  /*margin-left: 5px;
+  margin-bottom: 10px;*/
 }
 
 .navbar {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0 auto;
     /*align-items: center; think this is what it made it crazy*/
-    margin: 0 auto;
+   /* margin: 0 auto;
     text-align: center;
-    width: fit-content;
+    width: fit-content;*/
     /*justify-content: center; 
     gap: 20px;
     width: 100%; */
