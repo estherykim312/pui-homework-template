@@ -7,13 +7,12 @@ body{
 header{
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /*used to be center*/
+  align-items: center;
   padding: 10px;
   /*margin-bottom: 20px;*/
 }
 
 #logo{
-  position: absolute;
   /*top: 0;
   left: 0; 
   margin: 10px;*/
@@ -22,14 +21,11 @@ header{
 }
 
 .navbar {
-    display: flex; /*used to be block;*/
-    flex-direction: column;
+    display: block;
     /*align-items: center; think this is what it made it crazy*/
-    gap: 10px; 
-    margin-top: 20px;
-    /*margin: 0 auto;*/
-    /*text-align: center;*/
-   /* width: fit-content;*/
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
     /*justify-content: center; 
     gap: 20px;
     width: 100%; */
