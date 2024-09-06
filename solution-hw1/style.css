@@ -77,8 +77,14 @@ header {
   margin-top: 20px;
 }
 
+.product-item{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
 .product-image{
   width: 150px;
   margin: 10px 0;
   border: 2px solid black;
+  /*margin-right: 10px; unecessary*/
 }
