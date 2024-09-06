@@ -15,7 +15,6 @@ body{
   margin-left: 10px;
 }
 
-
 .navbar {
     display: flex;
     flex-direction: column;
@@ -32,6 +31,14 @@ body{
     width: 100%; */
   }
 
+  .black-line {
+    border: none; 
+    height: 3px;  
+    background-color: black; 
+    width: 90%; 
+    margin-top: 50px;
+}
+
 
   .nav-link {
     text-decoration: none;
@@ -47,13 +54,6 @@ body{
     border-radius: 5px; 
   }
 
-  .black-line {
-    border: none; 
-    height: 3px;  
-    background-color: black; 
-    width: 90%; 
-    margin-top: 50px;
-}
 
   .text-container{
     display: flex;
