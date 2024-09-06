@@ -7,20 +7,24 @@ body{
 header{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /*used to be center*/
   padding: 10px;
   /*margin-bottom: 20px;*/
 }
 
 #logo{
+  margin-left: 5px;
   margin-bottom: 20px;
 }
 
 .navbar {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: fit-content;
+    display: flex; /*used to be block;*/
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+   /* width: fit-content;*/
     /*justify-content: center; 
     gap: 20px;
     width: 100%; */
