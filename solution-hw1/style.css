@@ -12,6 +12,7 @@ header {
 
 #logo{
   align-self: flex-start;
+  width: 400px;
   margin-left: 40px;
 }
 
@@ -56,8 +57,7 @@ header {
 
   .mainpage-header{
     font-size: 27px;
-    font-weight: 200;
-    font-family: Arial, sans-serif;
+    font-weight: 300;
     text-align: center;
   }
 
@@ -95,10 +95,12 @@ header {
 .product-item{
   text-align: left;
   margin: 20px; 
+  width: 400px;
 }
 
 .product-image{
-  width: 200px;
+  width: 400px;
+  height: 400px;
   margin: 10px 0;
   border: 2px solid black;
   /*margin-right: 10px;*/
@@ -106,6 +108,5 @@ header {
 
 .product-item p{
   font-size: 16px;
-  font-weight: 300;
   text-align: left;
 }
