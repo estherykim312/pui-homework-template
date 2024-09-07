@@ -13,7 +13,7 @@ header {
 #logo{
   align-self: flex-start;
   width: 400px;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 .black-line {
@@ -44,7 +44,7 @@ header {
   .nav-link {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 19px;
     padding: 5px 10px;
   }
   
@@ -56,7 +56,7 @@ header {
   }
 
   .mainpage-header{
-    font-size: 27px;
+    font-size: 33px;
     font-weight: 300;
     text-align: center;
   }
