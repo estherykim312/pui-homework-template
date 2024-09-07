@@ -86,10 +86,11 @@ header {
 
 .product-gallery{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 20px; /*this is new*/
+  margin-top: 20px;
+  gap: 20px; /*this is new*/
 }
 
 .product-item{
