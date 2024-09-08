@@ -27,6 +27,15 @@ body{
     padding-bottom: 0;
   } 
   
+.black-line {
+    border: none; 
+    height: 3px;  
+    background-color: black; 
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+  
   
   .navbar {
       display: flex;
@@ -46,10 +55,11 @@ body{
       width: 100%; */
     }
   
-  
     .nav-link {
       text-decoration: none;
       color: black;
       font-size: 21px;
       padding: 5px 10px;
     }
+
+    

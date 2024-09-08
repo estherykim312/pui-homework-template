@@ -136,7 +136,7 @@ body{
 
 .product-item:hover {
   background-color: yellow; 
-  width: 420px;
+  width: 405px;
 }
 
 .product-item:hover .product-title {
