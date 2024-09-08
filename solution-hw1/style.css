@@ -20,7 +20,8 @@ body{
   align-self: flex-start;
   width: 400px;
   height: 400px;
-  margin-left: 0px;
+  margin-left: 0;
+  padding-bottom: 0px;
   /* old padding-bottom: 10px;*/
 } 
 
@@ -29,7 +30,7 @@ body{
   height: 3px;  
   background-color: black; 
   width: 90%; 
-  margin-top: 50px;
+  margin: 0;
 }
 
 .navbar {
