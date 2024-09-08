@@ -13,6 +13,7 @@ header {
 #logo{
   align-self: flex-start;
   width: 400px;
+  height: 400px;
   margin-left: 0px;
 } 
 
@@ -109,7 +110,21 @@ header {
   /*margin-right: 10px;*/
 }
 
-.product-item p{
-  font-size: 21px;
-  text-align: left;
+.product-title{
+  font-size: 23px;
+  text-align:left;
+  text-decoration: underline;
 }
+
+.product-price{
+  font-size: 23px;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* old
+.product-item p{
+  font-size: 23px;
+  text-align: left;
+  text-decoration: underline;
+}*/
