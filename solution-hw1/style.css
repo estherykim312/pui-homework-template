@@ -142,3 +142,9 @@ body{
 .product-item:hover .product-title {
   font-weight: bold; 
 }
+
+a.product-link{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
