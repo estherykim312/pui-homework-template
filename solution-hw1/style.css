@@ -3,7 +3,6 @@ body{
   /*text-align: center;*/
 }
 
-/* old
 header {
   display: flex;
   flex-direction: column;
@@ -15,40 +14,7 @@ header {
   align-self: flex-start;
   width: 400px;
   margin-left: 0px;
-} */
-
-/* made it look crazy 
-  header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-}
-
-#logo{
-  position: absolute;
-  left: 0;
-  display: flex;
-  align-items: center;
-
-}*/
-
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding: 10px 20px;
-  width: 100%;
-  position: relative;
-}
-
-#logo{
-  align-self: flex-start;
-  margin-left: 0;
-}
+} 
 
 
 .black-line {
@@ -61,9 +27,8 @@ header{
 
 .navbar {
     display: flex;
-    justify-content: center; /*new*/
-    /* trying newflex-direction: column;
-    align-items: center;*/
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
     text-align: center;
     /*margin: 20px auto 0 auto;*/
