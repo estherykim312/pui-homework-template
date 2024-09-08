@@ -41,6 +41,7 @@ body{
     align-items: center;
     gap: 20px;
     text-align: center;
+    margin-top: 10px;
     /*margin: 20px auto 0 auto;*/
     /*align-items: center; think this is what it made it crazy*/
    /* margin: 0 auto;
@@ -119,13 +120,13 @@ body{
   /*margin-right: 10px;*/
 }
 
-.product-title{
+.product-item .product-title{
   font-size: 23px;
   text-align:left;
   text-decoration: underline;
 }
 
-.product-price{
+.product-item .product-price{
   font-size: 23px;
   text-align: left;
   text-decoration: none;
