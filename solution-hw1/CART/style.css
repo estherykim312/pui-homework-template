@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    /*text-align: center;*/
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: flex-start; /*new*/
+    /*old: used to be when nav was in header justify-content: space-between;*/
+    /*flex-direction: column;*/
+    /*old: used to be when nav was in header align-items: flex-end;*/
+    padding: 0 10px;
+    /*old
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative; */
+  }
+  
+  #logo {
+    /*dont need w new header align-self: flex-start;*/
+    width: 400px;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  } 
+  
+  
+  .navbar {
+      display: flex;
+      flex-direction: column;
+      /*justify-content: center;*/
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      margin-top: 10px;
+      /*margin: 20px auto 0 auto;*/
+      /*align-items: center; think this is what it made it crazy*/
+     /* margin: 0 auto;
+      text-align: center;
+      width: fit-content;*/
+      /*justify-content: center; 
+      gap: 20px;
+      width: 100%; */
+    }
+  
+  
+    .nav-link {
+      text-decoration: none;
+      color: black;
+      font-size: 21px;
+      padding: 5px 10px;
+    }
