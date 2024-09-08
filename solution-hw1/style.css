@@ -3,15 +3,17 @@ body{
   /*text-align: center;*/
 }
 
-header {
+.header-container {
   display: flex;
   justify-content: space-between;
   /*flex-direction: column;*/
-  align-items: center;
+  align-items: flex-end;
+  padding: 0 10px;
+  /*old
   padding: 10px;
   width: 90%;
   margin: 0 auto;
-  position: relative;
+  position: relative; */
 }
 
 #logo {
@@ -19,9 +21,8 @@ header {
   width: 400px;
   height: 400px;
   margin-left: 0px;
-  padding-bottom: 10px;
+  /* old padding-bottom: 10px;*/
 } 
-
 
 .black-line {
   border: none; 
