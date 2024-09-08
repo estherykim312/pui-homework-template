@@ -21,7 +21,7 @@ body{
   width: 400px;
   height: 400px;
   margin-left: 0;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   /* old padding-bottom: 10px;*/
 } 
 
@@ -29,8 +29,8 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  width: 90%; 
-  margin: 0;
+  width: 100&;
+  margin: 0 auto;
 }
 
 .navbar {
