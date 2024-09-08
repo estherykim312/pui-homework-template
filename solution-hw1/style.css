@@ -7,7 +7,6 @@ body{
 .header-container {
   display: flex;
   justify-content: flex-start; /*new*/
-  align-items: flex-start; /*new*/
   /*old: used to be when nav was in header justify-content: space-between;*/
   /*flex-direction: column;*/
   /*old: used to be when nav was in header align-items: flex-end;*/
@@ -40,7 +39,7 @@ body{
 .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     gap: 20px;
     text-align: center;
