@@ -19,8 +19,9 @@ body{
 #logo {
   align-self: flex-start;
   width: 400px;
-  height: 400px;
+  height: auto;
   margin-left: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
   /* old padding-bottom: 10px;*/
 } 
@@ -29,8 +30,9 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  width: 100&;
+  width: 90%;
   margin: 0 auto;
+  margin-top: 0;
 }
 
 .navbar {
