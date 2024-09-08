@@ -10,15 +10,16 @@ header {
   align-items: center;
   padding: 10px;
   width: 90%
+  margin: 0 auto;
   position: relative;
 }
 
-#logo{
+#logo {
   align-self: flex-start;
   width: 400px;
   height: 400px;
   margin-left: 0px;
-  padding-top: 10px;
+  padding-bottom: 10px;
 } 
 
 
