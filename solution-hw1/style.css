@@ -133,3 +133,11 @@ body{
   text-align: left;
   text-decoration: none;
 }
+
+.product-item:hover {
+  background-color: yellow; 
+}
+
+.product-item:hover .product-title {
+  font-weight: bold; 
+}
