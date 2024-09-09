@@ -156,7 +156,7 @@ a.product-link{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .cartpage-header{
@@ -180,12 +180,15 @@ a.product-link{
 }
 
 .cart-item-details{
-  margin-left: 20px;
+  text-align:center;
+  margin-top: 20px;
 }
 
-.mini-black-line {
+.mini-black-line{
   width: 60%;
   border: none;
   height: 2px;
   background-color: black;
   margin: 20px 0;
+}
+  
