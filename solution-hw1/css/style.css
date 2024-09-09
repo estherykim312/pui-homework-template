@@ -63,7 +63,7 @@ body{
   padding: 5px 10px;
 }
 
-.nav-link-active{
+.nav.link/active{
   background-color: yellow;
   font-weight: bold;
   color: black;
@@ -256,13 +256,13 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center; /*centers both text and image*/
+  justify-content: center; 
   margin-top: 20px;
 }
 
 .chosen-image{
   border: 3px solid black;
   width: 600px;
-  height: 600px;
   /*align-items: center; unecessary*/
 }
 
