@@ -71,7 +71,7 @@ body{
 
   .mainpage-header{
     font-size: 35px;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
   }
 
@@ -162,7 +162,7 @@ a.product-link{
 
 .cart-page-header{
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   margin: 20px 0;
   width: 100%;
@@ -178,7 +178,7 @@ a.product-link{
 .small-product-image{
   width: 200px;
   height: auto;
-  border: 3px solid black;
+  border: 4px solid black;
 }
 
 .remove{
@@ -218,4 +218,21 @@ a.product-link{
   font-size: 20px;
   font-weight: bold;
   width: 220px;
+}
+
+/* css for product detail page*/
+
+.productdetail-header{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.product-image{
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  margin: 10px 0;
 }
