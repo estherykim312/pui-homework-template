@@ -222,6 +222,15 @@ a.product-link{
 
 /* css for product detail page*/
 
+.product-detail-body-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
 .productdetail-header{
   font-size: 35px;
   font-weight: 200;
@@ -234,5 +243,5 @@ a.product-link{
   border: 2px solid black;
   width: 600px;
   height: 600px;
-  margin: 10px 0;
 }
+
