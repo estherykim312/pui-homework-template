@@ -1,3 +1,4 @@
+/* main index html page*/
 body{
   font-family: Arial, sans-serif;
   font-size: 23px;
@@ -37,56 +38,63 @@ body{
 }
 
 .navbar {
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    align-items: center;
-    gap: 20px;
-    text-align: center;
-    margin-top: 10px;
-    /*margin: 20px auto 0 auto;*/
-    /*align-items: center; think this is what it made it crazy*/
-   /* margin: 0 auto;
-    text-align: center;
-    width: fit-content;*/
-    /*justify-content: center; 
-    gap: 20px;
-    width: 100%; */
-  }
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 10px;
+  /*margin: 20px auto 0 auto;*/
+  /*align-items: center; this is what it made it crazy*/
+  /* margin: 0 auto;
+  text-align: center;
+  width: fit-content;*/
+  /*justify-content: center; 
+  gap: 20px;
+  width: 100%; */
+}
 
 
-  .nav-link {
-    text-decoration: none;
-    color: black;
-    font-size: 21px;
-    padding: 5px 10px;
-  }
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  padding: 5px 10px;
+}
+
+.active{
+  background-color: yellow;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
   
-  #products-link {
-    font-weight: bold;
-    /*background-color: yellow; */
-    padding: 5px 10px;
-    border-radius: 5px; 
-  }
+#products-link {
+  font-weight: bold;
+  /*background-color: yellow; */
+  padding: 5px 10px;
+  border-radius: 5px; 
+}
 
-  .mainpage-header{
-    font-size: 35px;
-    font-weight: 200;
-    text-align: center;
-  }
+.mainpage-header{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+}
 
 
-  .text-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%
-  }
+.text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%
+}
 
-  .center-text{
-    font-size: 23px;
-  }
+.center-text{
+  font-size: 23px;
+}
 
 /*.product-gallery{
   margin: 0 auto;
@@ -105,7 +113,7 @@ body{
   align-items: center;
   margin: 0 auto;
   margin-top: 20px;
-  gap: 20px; /*this is new*/
+  gap: 20px; 
 }
 
 .product-item{
@@ -248,6 +256,7 @@ a.product-link{
 .chosen-product-description{
   font-size: 20px;
   margin: 15px 0;
+  align-items: center;
 }
 
 .chosen-image{
