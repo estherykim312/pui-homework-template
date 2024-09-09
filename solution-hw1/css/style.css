@@ -149,9 +149,21 @@ a.product-link{
   color: black;
 }
 
-.cart-item{
-  width: 200px;
-  height: 200px;
-  margin: 10px 0;
+
+
+.small-product-image{
+  width: 150px;
+  height: auto;
   border: 1px solid black;
+}
+
+.cart-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item-details{
+  margin-left: 20px;
 }
