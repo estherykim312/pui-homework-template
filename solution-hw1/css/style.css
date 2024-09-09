@@ -64,7 +64,7 @@ body{
   
   #products-link {
     font-weight: bold;
-    background-color: yellow; 
+    /*background-color: yellow; */
     padding: 5px 10px;
     border-radius: 5px; 
   }
@@ -147,4 +147,11 @@ a.product-link{
   display: block;
   text-decoration: none;
   color: black;
+}
+
+.cart-item{
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+  border: 1px solid black;
 }
