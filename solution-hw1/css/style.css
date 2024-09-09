@@ -210,3 +210,11 @@ a.product-link{
   align-self: center;
 }
   
+.checkout-btn{
+  background-color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 220px;
+}
