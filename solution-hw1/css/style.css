@@ -182,12 +182,17 @@ a.product-link{
   font-size: 14px;
   text-decoration: underline;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .cart-item-details{
   text-align: center;
-  margin-top: 15px;
+  margin-top: 12px;
+}
+
+.cart-item-price{
+  margin-top: 10px;
+  font-size: 30px;
 }
 
 .mini-black-line{
