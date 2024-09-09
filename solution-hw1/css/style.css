@@ -164,20 +164,19 @@ a.product-link{
   font-size: 35px;
   font-weight: 300;
   text-align: center;
-  margin: 20px auto;
-  margin-bottom: 20px;
+  margin: 20px 0;
   width: 100%;
 }
 
-.cart-item{
+/*.cart-item{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-}
+}*/
 
 .small-product-image{
-  width: 150px;
+  width: 200px;
   height: auto;
   border: 3px solid black;
 }
@@ -197,6 +196,10 @@ a.product-link{
 .cart-item-price{
   margin-top: 10px;
   font-size: 30px;
+}
+
+.cart-total{
+  text-align: center;
 }
 
 .mini-black-line{
