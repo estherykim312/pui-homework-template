@@ -71,7 +71,7 @@ body{
 }
   
 #products-link {
-  font-weight: bold;
+  /*font-weight: bold;*/
   /*background-color: yellow; */
   padding: 5px 10px;
   border-radius: 5px; 
@@ -151,7 +151,7 @@ body{
   font-weight: bold; 
 }
 
-a.product-link{
+.product-link{
   display: block;
   text-decoration: none;
   color: black;
@@ -279,6 +279,7 @@ a.product-link{
   align-items: flex-start;*/
   margin-bottom: 15px;
   width: 200px;
+  text-align: left;
 }
 
 label{
