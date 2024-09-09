@@ -246,7 +246,7 @@ a.product-link{
 }
 
 .chosen-product-description{
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px 0;
 }
 
@@ -258,20 +258,22 @@ a.product-link{
 }
 
 .dropdown-menus{
-  margin: 15px 0;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-
-.dropdown-menu{
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
+.dropdown-menu{
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+  margin-bottom: 15px;
+  width: 200px;
+}
+
 label{
-  font-size: 20px;
+  font-size: 19px;
 }
 
 select{
@@ -286,4 +288,10 @@ select{
   padding: 10px 20px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: bold;
+  margins: 20px 0;
 }
