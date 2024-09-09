@@ -63,7 +63,7 @@ body{
   padding: 5px 10px;
 }
 
-.nav.link/active{
+.nav.link.active{
   background-color: yellow;
   font-weight: bold;
   color: black;
@@ -71,6 +71,7 @@ body{
   padding: 5px 10px;
   border-radius: 5px;
 }
+
   
 #products-link {
   /*font-weight: bold;*/
@@ -263,6 +264,7 @@ body{
 .chosen-image{
   border: 3px solid black;
   width: 600px;
+  height: auto;
   /*align-items: center; unecessary*/
 }
 
