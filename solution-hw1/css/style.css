@@ -304,3 +304,9 @@ select{
   font-weight: bold;
   margin: 20px 0;
 }
+
+.price-and-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
