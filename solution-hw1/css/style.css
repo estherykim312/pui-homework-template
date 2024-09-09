@@ -157,7 +157,7 @@ a.product-link{
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 100%
+  width: 100%;
 }
 
 .cart-page-header{
@@ -166,6 +166,7 @@ a.product-link{
   text-align: center;
   margin: 20px auto;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .cart-item{
@@ -200,7 +201,7 @@ a.product-link{
 
 .mini-black-line{
   width: 60%;
-  height: 2px;
+  height: 3px;
   background-color: black;
   margin: 20px auto;
   align-self: center;
