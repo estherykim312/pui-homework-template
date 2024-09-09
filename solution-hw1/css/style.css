@@ -240,8 +240,13 @@ a.product-link{
 }
 
 .chosen-item{
+  text-align: left;
+  margin: 20px; 
+  width: 600px;
+}
+
+.chosen-image{
   border: 2px solid black;
   width: 600px;
   height: 600px;
 }
-
