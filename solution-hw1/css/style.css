@@ -269,11 +269,11 @@ body{
 }
 
 .chosen-product-description{
-  width: 100%; /*needs to take up full width of the container*/
-  max-width: 800px;
+  /*width: 100%; needs to take up full width of the container*/
+  max-width: 600px;
   font-size: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
-  margin: 0 auto;
+  margin: 20px auto;
   /*margin: 15px 0;*/
 }
 
