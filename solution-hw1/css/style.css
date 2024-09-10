@@ -63,7 +63,7 @@ body{
   padding: 5px 10px;
 }
 
-.nav.link.active{
+.nav-link.active{
   background-color: yellow;
   font-weight: bold;
   color: black;
