@@ -2,7 +2,6 @@
 body{
   font-family: Arial, sans-serif;
   font-size: 23px;
-  /*text-align: center;*/
 }
 
 .header-container {
@@ -258,6 +257,7 @@ body{
   align-items: center; /*centers both text and image*/
   justify-content: center; 
   margin-top: 20px;
+  width: 100%''
 }
 
 .chosen-image{
@@ -272,8 +272,8 @@ body{
   max-width: 600px;
   font-size: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
+  margin: 0 auto;
   /*margin: 15px 0;
-  align-items: center;*/
 }
 
 .dropdown-menus{
