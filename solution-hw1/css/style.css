@@ -257,7 +257,7 @@ body{
   align-items: center; /*centers both text and image*/
   justify-content: center; 
   margin-top: 20px;
-  width: 100%''
+  width: 100%;
 }
 
 .chosen-image{
