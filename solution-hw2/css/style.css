@@ -1,0 +1,324 @@
+/* main index html page*/
+body{
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start; /*new*/
+  /*old: used to be when nav was in header justify-content: space-between;*/
+  /*flex-direction: column;*/
+  /*old: used to be when nav was in header align-items: flex-end;*/
+  padding: 0 10px;
+  /*old
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative; */
+}
+
+#logo {
+  /*dont need w new header align-self: flex-start;*/
+  width: 400px;
+  height: auto;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+} 
+
+.black-line {
+  border: none; 
+  height: 3px;  
+  background-color: black; 
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+/*new navbar solution2:*/
+.navbar{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  align-items: center; /* vertically center items*/
+  gap: 20px; /*adjust spacing between items*/
+
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  padding: 5px 10px;
+}
+
+.nav-link.active{
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+  
+#products-link {
+  /*font-weight: bold;*/
+  /*background-color: yellow; */
+  padding: 5px 10px;
+  border-radius: 5px; 
+}
+
+.mainpage-header{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+.text-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%
+}
+
+.center-text{
+  font-size: 23px;
+}
+
+/*.product-gallery{
+  margin: 0 auto;
+  margin-top: 20px;
+} this is the original*/
+
+/*.product-item{
+  text-align: left;
+  margin-bottom: 20px;
+}edit made before sep 7*/
+
+.product-gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  gap: 20px; 
+}
+
+.product-item{
+  text-align: left;
+  margin: 20px; 
+  width: 400px;
+}
+
+.product-image{
+  width: 400px;
+  height: 400px;
+  margin: 10px 0;
+  border: 2px solid black;
+  /*margin-right: 10px;*/
+}
+
+
+.product-title{
+  text-align: left;
+  text-decoration: underline;
+}
+
+.product-item p .product-price{
+  font-size: 23px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.product-item:hover {
+  background-color: yellow; 
+  width: 405px;
+}
+
+.product-item:hover .product-title {
+  font-weight: bold; 
+}
+
+.product-link{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/*css for cart page*/
+
+.cart-body-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-page-header{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.cart-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.small-product-image{
+  width: 200px;
+  height: auto;
+  border: 4px solid black;
+}
+
+.remove{
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.cart-item-details{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.cart-item-price{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.cart-total{
+  text-align: center;
+  font-size: 30px;
+}
+
+.mini-black-line{
+  width: 60%;
+  height: 3px;
+  background-color: black;
+  margin: 20px auto;
+  align-self: center;
+}
+  
+.checkout-btn{
+  background-color: yellow;
+  border: 3px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 220px;
+}
+
+/* css for product detail page*/
+
+.product-detail-body-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.productdetail-header{
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.chosen-item{
+  /*text-align: left;
+  margin: 20px; 
+  width: 600px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*centers both text and image*/
+  justify-content: center; 
+  margin-top: 20px;
+  width: 100%;
+}
+
+.chosen-image{
+  border: 3px solid black;
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  /*align-items: center; unecessary*/
+}
+
+.chosen-product-description{
+  /*width: 100%; needs to take up full width of the container*/
+  max-width: 600px;
+  font-size: 20px;
+  text-align: left; /*moved this from chosen item to specific here*/
+  margin: 20px auto;
+  /*margin: 15px 0;*/
+}
+
+.dropdown-menus{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown-menu{
+  /*display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+  margin-bottom: 15px;
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown-box{
+  width: 300px;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+label{
+  font-size: 19px;
+}
+
+select{
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.add-to-cart-btn{
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.price-and-btn{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
