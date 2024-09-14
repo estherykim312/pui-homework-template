@@ -1,4 +1,4 @@
-/* main index html page*/
+/* *****MAIN INDEX PRODUCT GALLERY PAGE***** */
 body{
   font-family: Arial, sans-serif;
   font-size: 23px;
@@ -153,7 +153,7 @@ body{
   color: black;
 }
 
-/*css for cart page*/
+/* ****CSS FOR CART PAGE**** */
 
 .cart-body-contents{
   display: flex;
@@ -224,7 +224,7 @@ body{
   width: 220px;
 }
 
-/* css for product detail page*/
+/* ****CSS FOR PRODUCT DETAIL PAGE**** */
 
 .product-detail-body-contents{
   display: flex;
