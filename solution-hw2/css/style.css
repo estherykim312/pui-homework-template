@@ -16,6 +16,7 @@ body{
 .logo-and-line{
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 
 #logo {
@@ -31,7 +32,7 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  width: 250px;
+  max-width: 300px;
   margin-left: 20px;
 }
 
@@ -45,7 +46,6 @@ body{
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
   margin-left: auto;
-
 }
 
 .nav-link {
