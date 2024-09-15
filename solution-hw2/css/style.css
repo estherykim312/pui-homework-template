@@ -102,26 +102,32 @@ body{
   margin-bottom: 20px;
 }edit made before sep 7*/
 
+
 .product-gallery{
-  display: flex;
-  flex-direction: column;
+  display: flex; 
+  flex-direction: column; /*vertical rows*/
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 20px;
-  gap: 20px; 
+}
+
+.product-row{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 40px;
 }
 
 .product-item{
-  text-align: left;
+  text-align:left;
   margin: 20px; 
-  width: 400px;
+  width: 285px;
 }
 
 .product-image{
-  width: 400px;
-  height: 400px;
-  margin: 10px 0;
+  width: 285px;
+  height: 285px;
+  /*margin: 10px 0;*/
   border: 2px solid black;
   /*margin-right: 10px;*/
 }
