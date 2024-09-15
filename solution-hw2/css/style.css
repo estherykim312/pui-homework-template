@@ -17,7 +17,6 @@ body{
 .logo-and-line{
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 #logo {
@@ -35,6 +34,7 @@ body{
   background-color: black; 
   max-width: 300px;
   margin-left: 20px;
+  display: block;
 }
 
 /*new navbar solution2:*/
