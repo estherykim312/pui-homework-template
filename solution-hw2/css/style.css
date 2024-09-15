@@ -6,8 +6,11 @@ body{
 
 .header-container {
   display: flex;
-  justify-content: flex-start; /*new*/
+  justify-content: space-between; /*logo left rest is right*/
+  align-items: center;
   padding: 0 10px;
+  position: relative;
+  box-sizing: border-box;
   width: 100%;
 }
 
@@ -25,15 +28,16 @@ body{
   height: 3px;  
   background-color: black; 
   width: 100%;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /*new navbar solution2:*/
 .navbar{
   display: flex;
-  position: relative; /*instead of absolute*/
+  /*
+  position: relative; instead of absolute
   margin-left: 150px;  
-  margin-top: -40px;
+  margin-top: -40px;*/
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
 
