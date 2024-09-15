@@ -6,11 +6,15 @@ body{
 
 .header-container {
   display: flex;
-  justify-content: space-between; /*logo left rest is right*/
+  justify-content: flex-start;
   align-items: center;
   padding: 0 20px;
-  box-sizing: border-box;
   width: 100%;
+}
+
+.logo-and-line{
+  display: flex;
+  align-items: center;
 }
 
 #logo {
@@ -26,8 +30,8 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  width: 100%;
-  margin-left: 0;
+  flex-grow: 1; /*fills space to the right of logo*/
+  margin-left: 10px;
 }
 
 /*new navbar solution2:*/
