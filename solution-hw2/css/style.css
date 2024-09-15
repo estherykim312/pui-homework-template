@@ -274,7 +274,7 @@ body{
 }
 
 .chosen-product-description{
-  font-size: 27px;
+  font-size: 29px;
   margin-bottom: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
   margin: 20px auto;
@@ -282,16 +282,16 @@ body{
 
 .dropdown-and-btn{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-left: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .dropdown-menus{
   /*margin-top: 30px;*/
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
   width: auto;
   /*
   align-items: center;
@@ -340,7 +340,7 @@ select{
 
 .price-and-btn{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  gap: 10px;
   margin-left: auto;
 }
