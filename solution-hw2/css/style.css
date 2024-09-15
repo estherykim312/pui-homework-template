@@ -7,15 +7,8 @@ body{
 .header-container {
   display: flex;
   justify-content: flex-start; /*new*/
-  /*old: used to be when nav was in header justify-content: space-between;*/
-  /*flex-direction: column;*/
-  /*old: used to be when nav was in header align-items: flex-end;*/
   padding: 0 10px;
-  /*old
-  padding: 10px;
-  width: 90%;
-  margin: 0 auto;
-  position: relative; */
+  width: 100%;
 }
 
 #logo {
@@ -31,18 +24,16 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 0;
+  width: 100%;
+  margin-left: 10px;
 }
 
 /*new navbar solution2:*/
 .navbar{
   display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 10px;
+  position: relative; /*instead of absolute*/
+  margin-left: 150px;  
+  margin-top: -40px;
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
 
