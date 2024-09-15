@@ -107,7 +107,6 @@ body{
   display: flex; 
   flex-direction: column; /*vertical rows*/
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -146,7 +145,7 @@ body{
 
 .product-item:hover {
   background-color: yellow; 
-  width: 405px;
+  width: 290px;
 }
 
 .product-item:hover .product-title {
