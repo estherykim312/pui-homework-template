@@ -2,6 +2,7 @@
 body{
   font-family: Arial, sans-serif;
   font-size: 23px;
+  overflow-x: hidden;
 }
 
 .header-container {
