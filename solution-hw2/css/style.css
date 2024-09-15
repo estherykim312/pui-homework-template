@@ -8,8 +8,7 @@ body{
   display: flex;
   justify-content: space-between; /*logo left rest is right*/
   align-items: center;
-  padding: 0 10px;
-  position: relative;
+  padding: 0 20px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -28,7 +27,7 @@ body{
   height: 3px;  
   background-color: black; 
   width: 100%;
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 /*new navbar solution2:*/
@@ -40,6 +39,7 @@ body{
   margin-top: -40px;*/
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
+  margin-left: auto;
 
 }
 
