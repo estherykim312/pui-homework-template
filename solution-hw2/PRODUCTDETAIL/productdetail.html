@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
-  <title>Product Detail</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
 
   <header>
-    <link rel="stylesheet" href="../css/style.css">
-    
     <div class="header-container">
 
       <div class="logo-and-line"> 
@@ -26,50 +29,49 @@
 
     </div>
 </header>
-
-  <body>
   
     <div class="product-detail-body-contents">
 
     <p class="productdetail-header">Original cinnamon roll</p>
 
-    <div class="chosen-item">
-      <img src="../../assets/products/original-cinnamon-roll.jpg" alt="Item" class="chosen-image"/>
-    
-        <p class="chosen-product-description">
-          Customize our delicious, hand-made cinammon roll to your liking!
-        </p>
+      <div class="chosen-item">
+        <img src="../../assets/products/original-cinnamon-roll.jpg" alt="Item" class="chosen-image"/>
       </div>
 
-        <div class="dropdown-menus">
+      <div class="chosen-item-details">
+          <p class="chosen-product-description">
+              Customize our delicious, hand-made cinammon roll to your liking!
+          </p>
 
-          <div class="dropdown-menu">
-        <label for="glazing-styles">Glazing:</label><br>
-        <select id="glazing-styles" class="dropdown-box">
-            <option value="keep-original">Keep original</option>
-            <option value="sugar-milk">Sugar milk</option>
-            <option value="vanilla-milk">Vanilla milk</option>
-            <option value="double-chocolate">Double chocolate</option>
-        </select>
-      </div>
+            <div class="dropdown-menus">
+              <div class="dropdown-menu">
+            <label for="glazing-styles">Glazing:</label><br>
+            <select id="glazing-styles" class="dropdown-box">
+                <option value="keep-original">Keep original</option>
+                <option value="sugar-milk">Sugar milk</option>
+                <option value="vanilla-milk">Vanilla milk</option>
+                <option value="double-chocolate">Double chocolate</option>
+            </select>
+          </div>
 
-        <div class="dropdown-menu">
-        <label for="pack-size">Pack size:</label><br>
-        <select id="pack-size" class="dropdown-box">
-            <option value="1">1</option>
-            <option value="3">3</option>
-            <option value="6">6</option>
-            <option value="12">12</option>
-        </select>
-      </div>
+            <div class="dropdown-menu">
+            <label for="pack-size">Pack size:</label><br>
+            <select id="pack-size" class="dropdown-box">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+            </select>
+          </div>
 
-    </div>
+        </div>
 
 
-    <div class="price-and-btn">
-    <p class="price">$2.49</p>
+        <div class="price-and-btn">
+        <p class="price">$2.49</p>
 
-    <button class="add-to-cart-btn">Add to Cart</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
     </div>
   </div>
 
