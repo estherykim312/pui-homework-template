@@ -21,7 +21,7 @@ body{
 
 #logo {
   /*dont need w new header align-self: flex-start;*/
-  width: 500px;
+  width: 600px;
   height: auto;
   /*margin-left: 0;
   margin-bottom: 0;
@@ -113,7 +113,7 @@ body{
 .product-row{
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 90px;
   margin-bottom: 40px;
 }
 
@@ -268,13 +268,13 @@ body{
 .chosen-image{
   border: 3px solid black;
   width: auto;
-  max-width: 730px;
+  max-width: 650px;
   height: auto;
   margin-bottom: 20px;
 }
 
 .chosen-product-description{
-  font-size: 27px;
+  font-size: 29px;
   margin-bottom: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
   margin: 20px auto;
@@ -307,12 +307,12 @@ body{
 .dropdown-box{
   width: 300px;
   padding: 10px;
-  font-size: 19px;
+  font-size: 23px;
   border: 3px solid black;
 }
 
 label{
-  font-size: 19px;
+  font-size: 23px;
 }
 
 select{
@@ -333,12 +333,13 @@ select{
   font-size: 25px;
   font-weight: bold;
   margin: 20px 0;
+  margin-right: 40px;
 }
 
 .price-and-btn{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
   margin-top: 40px;
 }
