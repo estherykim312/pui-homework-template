@@ -183,7 +183,6 @@ body{
 .cart-item{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 40px;
   width: 60%;
@@ -203,7 +202,6 @@ body{
   text-decoration: underline;
   font-weight: bold;
   margin-top: 10px;
-  align-self: flex-start;
   text-align: left;
 }
 
@@ -213,7 +211,7 @@ body{
   justify-content: flex-start;
   text-align: left;
   width: 100%;*/
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   text-align: left;
   margin-left: 20px;
 }
