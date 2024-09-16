@@ -45,15 +45,16 @@ body{
   margin-left: 150px;  
   margin-top: -40px;*/
   align-items: center; /* vertically center items*/
-  gap: 20px; /*adjust spacing between items*/
+  gap: 40px; /*adjust spacing between items*/
   margin-left: 0; /*used to be autp*/
-  padding-right: 80px;
+  padding-right: 120px;
+  font-size: 23px;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
-  font-size: 21px;
+  font-size: 23px;
   padding: 5px 10px;
 }
 
