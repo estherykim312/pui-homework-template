@@ -20,7 +20,6 @@ body{
   display: flex;
   /*flex-direction: column;*/
   align-items: center;
-  flex-grow: 1;
 }
 
 #logo {
@@ -33,12 +32,9 @@ body{
 } 
 
 .black-line {
-  border: none; 
+  flex-grow: 1;
   height: 3px;  
   background-color: black; 
-  width: 70%;
-  margin-left: 20px;
-  display: block;
   /*
   max-width: 300px;
   margin-left: 20px;
