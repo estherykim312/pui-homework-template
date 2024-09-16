@@ -33,7 +33,7 @@ body{
 .black-line {
   height: 3px;  
   background-color: black; 
-  flex-grow: 1;
+  width: 100%;
   margin-left: 20px;
   /*
   max-width: 300px;
