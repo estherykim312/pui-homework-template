@@ -36,8 +36,9 @@ body{
   border: none; 
   height: 3px;  
   background-color: black; 
-  flex-grow: 1;
-  margin-left: 10px;
+  width: 70%;
+  margin-left: 20px;
+  display: vlock;
   /*
   max-width: 300px;
   margin-left: 20px;
@@ -47,10 +48,11 @@ body{
 /*new navbar solution2:*/
 .navbar{
   display: flex;
+  align-items: center;
   gap: 30px; /*adjust spacing between items*/
-  justify-content: flex-end;
+  position: relative;
   margin-left: auto;
-  padding-bottom: 10px;
+  top: -30px;
   font-size: 23px;
 }
 
