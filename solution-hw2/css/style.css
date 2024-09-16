@@ -13,14 +13,14 @@ body{
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .logo-and-line{
   display: flex;
   /*flex-direction: column;*/
   align-items: center;
-  width: 100%;
+  flex-grow: 1;
 }
 
 #logo {
@@ -37,7 +37,7 @@ body{
   height: 3px;  
   background-color: black; 
   flex-grow: 1;
-  margin-left: 20px;
+  margin-left: 10px;
   /*
   max-width: 300px;
   margin-left: 20px;
@@ -47,15 +47,10 @@ body{
 /*new navbar solution2:*/
 .navbar{
   display: flex;
-  /*
-  position: relative; instead of absolute
-  margin-left: 150px;  
-  margin-top: -40px;*/
   align-items: center; /* vertically center items*/
-  gap: 40px; /*adjust spacing between items*/
-  margin-bottom: 10px;
-  margin-left: 0; /*used to be autp*/
-  padding-right: 120px;
+  gap: 30px; /*adjust spacing between items*/
+  padding-bottom: 10px;
+  margin-left: auto; 
   font-size: 23px;
 }
 
