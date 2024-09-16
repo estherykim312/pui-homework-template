@@ -46,7 +46,8 @@ body{
   margin-top: -40px;*/
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
-  margin-left: auto;
+  margin-left: 0; /*used to be autp*/
+  padding-right: 30px;
 }
 
 .nav-link {
@@ -265,7 +266,7 @@ body{
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  max-width: 360px; /*to text wrap: 410 width too wide, 310 too smol*/
+  max-width: 320px; /*to text wrap: 410 width too wide, 310 too smol*/
 }
 
 .chosen-image{
@@ -281,6 +282,7 @@ body{
   margin-bottom: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
   margin: 20px auto;
+  margin-bottom: 40px;
 }
 
 .dropdown-and-btn{
