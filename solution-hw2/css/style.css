@@ -227,7 +227,9 @@ body{
   flex-grow: 1;
   text-align: left;
   margin-left: 20px;
+  line-height: 1.8; /*adding space between lines*/
 }
+
 
 .cart-item-price{
   /*margin-top: 10px;*/
@@ -239,13 +241,17 @@ body{
 
 .cart-total{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   font-size: 30px;
   width: 60%;
+  margin: 0 auto;
 }
 
 .total-label{
   margin-right: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
