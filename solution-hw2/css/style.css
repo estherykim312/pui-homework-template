@@ -229,21 +229,24 @@ body{
 .cart-item-price{
   /*margin-top: 10px;*/
   font-size: 23px;
-  text-align: right;
+  /*text-align: right;*/
   white-space: nowrap;
+  margin-right: 0;
 }
 
 .cart-total{
-  text-align: right;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 30px;
-  width: 60%;
+  width: 100%;
 }
 
 .total-label{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  flex-grow: 1;
 }
 
 
@@ -306,7 +309,7 @@ body{
 .chosen-image{
   border: 3px solid black;
   width: auto;
-  max-width: 650px;
+  max-width: 600px;
   height: auto;
   margin-bottom: 20px;
 }
