@@ -265,7 +265,7 @@ body{
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  max-width: 410px; /*width was too wide so must make less wide*/
+  max-width: 360px; /*to text wrap: 410 width too wide, 310 too smol*/
 }
 
 .chosen-image{
@@ -277,7 +277,7 @@ body{
 }
 
 .chosen-product-description{
-  font-size: 29px;
+  font-size: 26px;
   margin-bottom: 20px;
   text-align: left; /*moved this from chosen item to specific here*/
   margin: 20px auto;
