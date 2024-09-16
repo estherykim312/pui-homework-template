@@ -209,8 +209,8 @@ body{
   text-decoration: underline;
   font-weight: bold;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  text-align: left;
+  margin-top: 10px;
   /*margin-top: 10px;
   text-align: left;*/
 }
