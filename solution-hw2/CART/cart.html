@@ -1,25 +1,26 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Shopping Cart</title>
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
 
   <header>
 
     <div class="header-container">
 
-      <div class="logo-and-line"> 
+      <div class="logo-and-line">
 
-        <a href="../index.html"> 
-          <div id="logo"> 
-            <img src="../../assets/logo/logo-01.svg" width= "400" alt="Logo"/>
+        <a href="../index.html">
+          <div id="logo">
+            <img src="../../assets/logo/logo-01.svg" width="400" alt="Logo" />
           </div>
         </a>
-      
+
         <hr class="black-line">
       </div>
 
@@ -29,33 +30,40 @@
       </nav>
 
     </div>
-</header>
+  </header>
 
-<p class="mainpage-header">Our hand-made cinnamon rolls</p>
+  <p class="mainpage-header">Our hand-made cinnamon rolls</p>
 
 
   <div class="cart-body-contents">
 
     <div class="cart-item">
-      <img src="../../assets/products/original-cinnamon-roll.jpg" width= "200" alt="Original cinnamon roll" class="small-product-image">
-      <div class="cart-item-details">
+      <div class="image-and-remove">  <!-- wanted to make new div to easily place remove under image-->
+        <img src="../../assets/products/original-cinnamon-roll.jpg" width="200" 
+        alt="Original cinnamon roll" class="small-product-image">
         <p class="remove">Remove</p>
+      </div>
+
+      <div class="cart-item-details">
         <p>
-          Original Cinnamon Roll <br> 
-          Glazing: Keep Original<br> 
+          Original Cinnamon Roll <br>
+          Glazing: Keep Original<br>
           Pack Size: 1 <br>
         </p>
         <p class="cart-item-price">$2.49</p>
       </div>
     </div>
-   
+
     <div class="cart-item">
-      <img src="../../assets/products/double-chocolate-cinnamon-roll.jpg" width= "200" alt="Double Chocolate cinnamon roll" class="small-product-image">
-      <div class="cart-item-details">
+      <div class="image-and-remove"> 
+      <img src="../../assets/products/double-chocolate-cinnamon-roll.jpg" width="200"
+        alt="Double Chocolate cinnamon roll" class="small-product-image">
         <p class="remove">Remove</p>
+        </div>
+      <div class="cart-item-details">
         <p>
-          Double Chocolate Cinnamon Roll <br> 
-          Glazing: Sugar milk <br> 
+          Double Chocolate Cinnamon Roll <br>
+          Glazing: Sugar milk <br>
           Pack Size: 6 <br>
         </p>
         <p class="cart-item-price">$27.45</p>
@@ -63,12 +71,16 @@
     </div>
 
     <hr class="mini-black-line">
-    
-    <p class="cart-total">Total $29.94</p>
+
+    <p class="cart-total"> <!-- centering only total so split into 2 -->
+      <span class="total-label">Total</span>
+      <span class="cart-item-price">$29.94</span>
+      </p>
 
     <button class="checkout-btn">Checkout</button>
 
   </div>
 
-  </body>
+</body>
+
 </html>
