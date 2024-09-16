@@ -200,6 +200,7 @@ body{
 .image-and-remove{ /*manually placing remove under photo*/
   display: flex;
   flex-direction: column;
+  text-align: left;
   position: relative;
 }
 
