@@ -47,10 +47,10 @@ body{
 /*new navbar solution2:*/
 .navbar{
   display: flex;
-  align-items: center; /* vertically center items*/
   gap: 30px; /*adjust spacing between items*/
+  justify-content: flex-end;
+  margin-left: auto;
   padding-bottom: 10px;
-  margin-left: auto; 
   font-size: 23px;
 }
 
