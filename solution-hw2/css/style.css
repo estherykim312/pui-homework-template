@@ -235,9 +235,17 @@ body{
 
 .cart-total{
   text-align: right;
+  justify-content: space-between;
+  display: flex;
   font-size: 30px;
   width: 60%;
 }
+
+.total-label{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .mini-black-line{
   width: 60%;
