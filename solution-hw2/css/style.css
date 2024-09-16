@@ -12,19 +12,18 @@ body{
   padding: 0 20px;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
-  flex-direction: row;
 }
 
 .logo-and-line{
   display: flex;
   /*flex-direction: column;*/
   align-items: center;
+  width: 100%;
 }
 
 #logo {
   /*dont need w new header align-self: flex-start;*/
-  width: 800px;
+  width: 600px;
   height: auto;
   /*margin-left: 0;
   margin-bottom: 0;
@@ -32,9 +31,10 @@ body{
 } 
 
 .black-line {
-  flex-grow: 1;
   height: 3px;  
   background-color: black; 
+  flex-grow: 1;
+  margin-left: 20px;
   /*
   max-width: 300px;
   margin-left: 20px;
