@@ -197,6 +197,12 @@ body{
   margin-bottom: 10px;
 }
 
+.image-and-remove{ /*manually placing remove under photo*/
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .remove{
   font-size: 14px;
   text-decoration: underline;
