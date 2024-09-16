@@ -21,7 +21,7 @@ body{
 
 #logo {
   /*dont need w new header align-self: flex-start;*/
-  width: 600px;
+  width: 800px;
   height: auto;
   /*margin-left: 0;
   margin-bottom: 0;
@@ -47,7 +47,7 @@ body{
   align-items: center; /* vertically center items*/
   gap: 20px; /*adjust spacing between items*/
   margin-left: 0; /*used to be autp*/
-  padding-right: 30px;
+  padding-right: 80px;
 }
 
 .nav-link {
@@ -345,6 +345,6 @@ select{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 40px;
+  gap: 28px;
   margin-top: 40px;
 }
