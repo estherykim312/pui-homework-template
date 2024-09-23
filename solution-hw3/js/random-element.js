@@ -49,7 +49,7 @@ function packUpdate(){
     updatePrice(); /*to update price for each pack size selection*/
 }
 
-/*generic function to do all the math*/
+/* function to do all the math*/
 function updatePrice(){
     let basePrice= 2.49;
     let glazingPrice= parseFloat(document.getElementById('glazing-styles').value);
@@ -57,7 +57,7 @@ function updatePrice(){
 
     let totalPrice= (basePrice + glazingPrice) * packPrice;
 
-    document.querySelector('.price').textContent= '$' + totalPrice.toFixed(2); 
+    document.querySelector('.price').textContent= '$' + totalPrice.toFixed(2);  /*total price formula*/
 }
 
 loadDropdowns();
