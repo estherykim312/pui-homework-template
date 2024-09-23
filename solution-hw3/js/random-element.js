@@ -56,7 +56,8 @@ function updatePrice(){
     let packPrice= parseFloat(document.getElementById('pack-size').value);
 
     let totalPrice= (basePrice + glazingPrice) * packPrice;
-    document.querySelector('.price').textContent= '$${totalPrice.toFixed(2)}'; /*$ literal and 2 for 2 decimals*/
+
+    document.querySelector('.price').textContent= '$' + totalPrice.toFixed(2); 
 }
 
 loadDropdowns();
