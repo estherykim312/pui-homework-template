@@ -56,10 +56,10 @@ function updatePrice(){
     let packPrice= parseFloat(document.getElementById('pack-size').value);
 
     let totalPrice= (basePrice + glazingPrice) * packPrice;
-    document.querySelector('.price').textContent= '${totalPrice.toFixed(2)}'; /*$ literal and 2 for 2 decimals*/
+    document.querySelector('.price').textContent= '$${totalPrice.toFixed(2)}'; /*$ literal and 2 for 2 decimals*/
 }
 
 loadDropdowns();
 
-document.getElementById('glazing-styles').addEventListener('update', glazingUpdate);
-document.getElementById('pack-size').addEventListener('update', packUpdate);
+document.getElementById('glazing-styles').addEventListener('change', glazingUpdate); 
+document.getElementById('pack-size').addEventListener('change', packUpdate);
