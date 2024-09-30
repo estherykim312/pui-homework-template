@@ -19,23 +19,11 @@ let imageFile = rollDetails.imageFile;
 document.querySelector('.productdetail-header').innerText = rollType + ' Cinnamon Roll';
 
 //to update image
-document.getElementById('roll-image').src = '../../assets/products/' + imageFile;
+document.getElementById('roll-image').src = '../assets/products/' + imageFile;
 
 //to update price
 document.getElementById('roll-price').innerText = '$' + basePrice;
 
-
-// updating dom: updating roll title- referring to the new id in productdetailhtml
-let rollTitleElement = document.querySelector('.productdetail-header');
-rollTitleElement.innerText = rollType + ' Cinnamon Roll';
-
-// updating  image- referring to the new id in productdetailhtml 
-let rollImageElement = document.getElementById('roll-image');
-rollImageElement.src = '../assets/products/' + imageFile;
-
-// updating price- reffering to the new id in productdetailhtml
-let rollPriceElement = document.getElementById('roll-price');
-rollPriceElement.innerText = '$' + basePrice;
 
 
 let glazingOptions= [
