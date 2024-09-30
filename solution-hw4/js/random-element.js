@@ -19,7 +19,7 @@ let imageFile = rollDetails.imageFile;
 document.querySelector('.productdetail-header').innerText = rollType + ' Cinnamon Roll';
 
 //to update image
-document.getElementById('roll-image').src = '../assets/products/' + imageFile;
+document.getElementById('roll-image').src = '../../assets/products/' + imageFile;
 
 //to update price
 document.getElementById('roll-price').innerText = '$' + basePrice;
