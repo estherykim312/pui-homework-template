@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Product Detail</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="js/rollsData.js"></script>
   </head>
 
   <body>
@@ -30,13 +31,16 @@
     </div>
 </header>
   
-<p class="productdetail-header">Original cinnamon roll</p>
+<!-- need an ID for sol4 to easily change header-->
+<p id="roll-title" class="productdetail-header">Original cinnamon roll</p>
+<!-- sol3 no more: <p class="productdetail-header">Original cinnamon roll</p> -->
 
 
     <div class="product-detail-body-contents">
 
       <div class="chosen-item">
-        <img src="../../assets/products/original-cinnamon-roll.jpg" alt="Item" class="chosen-image"/>
+        <img id="roll-image" src="../../assets/products/original-cinnamon-roll.jpg" alt="Item" class="chosen-image"/>
+       <!-- no more: <img src="../../assets/products/original-cinnamon-roll.jpg" alt="Item" class="chosen-image"/>-->
       </div>
 
       <div class="chosen-item-details">
@@ -72,7 +76,9 @@
 
 
         <div class="price-and-btn">
-        <p class="price">$2.49</p>
+        <!-- <p class="price">$2.49</p> -->
+        <p id="roll-price" class="price">$2.49</p>
+
 
         <button class="add-to-cart-btn">Add to Cart</button>
         </div>
