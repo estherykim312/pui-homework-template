@@ -86,7 +86,8 @@ function packUpdate(){
 
 /* function to do all the math*/
 function updatePrice(){
-    let basePrice= 2.49;
+    //SOL3 NO MORE: let basePrice= 2.49;//
+
     let glazingPrice= parseFloat(document.getElementById('glazing-styles').value);
     let packPrice= parseFloat(document.getElementById('pack-size').value);
 
