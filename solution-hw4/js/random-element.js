@@ -88,3 +88,28 @@ loadDropdowns();
 
 document.getElementById('glazing-styles').addEventListener('change', glazingUpdate); 
 document.getElementById('pack-size').addEventListener('change', packUpdate);
+
+
+// now adding roll class//
+
+class Roll {
+    constructor(rollType, rollGlazing, packSize, basePrice) {
+        this.type = rollType;
+        this.glazing = rollGlazing;
+        this.size = packSize;
+        this.basePrice = basePrice;
+    }
+}
+
+document.querySelector('.add-to-cart-btn').addEventListener('click', function() {
+    //glazing
+    let glazing = document.getElementById('glazing-styles').value;
+    //pack size
+    let packSize = document.getElementById('pack-size').value;
+    // object that refers to everything
+    let newRoll = new Roll(rollType, glazing, packSize, basePrice);
+    //adding to cart
+    cart.push(newRoll);
+    //to print
+    console.log(cart);
+});
