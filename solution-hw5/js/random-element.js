@@ -68,6 +68,7 @@ function displayCart(){
 
 // remmove an item from the cart
 function removeItemFromCart(rollToRemove) {
+    console.log("Removing:", rollToRemove);
     let updatedCart = [];
     for (let i = 0; i < cart.length; i++) {
         if (cart[i] !== rollToRemove) {
@@ -92,8 +93,6 @@ function calculateTotalPrice() {
 }
 
 displayCart();
-//
-
 
 
 let queryString = window.location.search;
