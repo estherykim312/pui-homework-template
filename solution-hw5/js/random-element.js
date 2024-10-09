@@ -1,7 +1,3 @@
-/*<option value="keep-original">Keep original</option>
-<option value="sugar-milk">Sugar milk</option>
-<option value="vanilla-milk">Vanilla milk</option>
-<option value="double-chocolate">Double chocolate</option> going to move to js*/
 class Roll{
     constructor(rollType, rollGlazing, packSize, rollPrice){
         this.type = rollType;
