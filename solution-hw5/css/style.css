@@ -266,13 +266,21 @@ body{
   align-self: center;
 }
   
-.checkout-btn{
-  background-color: yellow;
-  border: 3px solid black;
-  padding: 10px 20px;
-  font-size: 20px;
-  font-weight: bold;
-  width: 220px;
+.cart-total {
+    margin: 0;
+}
+
+.checkout-btn {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.checkout-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
 }
 
 .checkout-container{
