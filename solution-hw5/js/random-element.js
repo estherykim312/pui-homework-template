@@ -26,14 +26,12 @@ console.log(cart);
 initializeCart();
 
 //
-// Function to display a single cart item
 function displayCartItem(roll) {
     let cartContainer = document.querySelector('.cart-body-contents');
 
     let cartItemDiv = document.createElement('div');
     cartItemDiv.classList.add('cart-item');
 
-    // Set up the HTML for the roll's details
     cartItemDiv.innerHTML = `
         <div class="image-and-remove">
             <img src="../../assets/products/${roll.type.toLowerCase()}-cinnamon-roll.jpg" width="200" alt="${roll.type} cinnamon roll" class="small-product-image">
