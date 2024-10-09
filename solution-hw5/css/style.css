@@ -266,14 +266,6 @@ body{
   align-self: center;
 }
   
-
-.total-and-checkout {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding-top: 10px; 
-}
-
 .cart-total {
     margin: 0;
 }
@@ -283,6 +275,12 @@ body{
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.checkout-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
 }
 
 
