@@ -275,6 +275,12 @@ body{
   width: 220px;
 }
 
+.checkout-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
 
 
 
@@ -393,3 +399,4 @@ select{
   gap: 28px;
   margin-top: 40px;
 }
+
