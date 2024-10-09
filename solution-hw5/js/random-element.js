@@ -64,8 +64,10 @@ function displayCart(){
 
 // remmove an item from the cart
 function removeItemFromCart(rollToRemove) {
-    cart = cart.filter(roll => !(roll.type === rollToRemove.type && roll.glazing === rollToRemove.glazing));
-    displayCart();
+    cart = cart.filter(function(roll) {
+        return !(roll.type === rollToRemove.type && roll.glazing === rollToRemove.glazing);
+    });
+        displayCart();
 }
 
 // to calculate the total price
