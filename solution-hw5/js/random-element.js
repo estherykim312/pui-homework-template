@@ -64,15 +64,7 @@ function displayCart(){
 
 // remmove an item from the cart
 function removeItemFromCart(rollToRemove) {
-    console.log("Removing:", rollToRemove);
-    let updatedCart = [];
-    for (let i = 0; i < cart.length; i++) {
-        if (cart[i] !== rollToRemove) {
-            updatedCart.push(cart[i]);
-        }
-    }
-    cart = updatedCart;
-
+    cart = cart.filter(roll => !(roll.type === rollToRemove.type && roll.glazing === rollToRemove.glazing));
     displayCart();
 }
 
@@ -175,18 +167,6 @@ loadDropdowns();
 
 document.getElementById('glazing-styles').addEventListener('change', glazingUpdate); 
 document.getElementById('pack-size').addEventListener('change', packUpdate);
-
-
-/* now adding roll class// this is the old placement i am removing this and placing it int he front
-
-class Roll {
-    constructor(rollType, rollGlazing, packSize, basePrice) {
-        this.type = rollType;
-        this.glazing = rollGlazing;
-        this.size = packSize;
-        this.basePrice = basePrice;
-    }
-}*/
 
 document.querySelector('.add-to-cart-btn').addEventListener('click', function() {
     //glazing
