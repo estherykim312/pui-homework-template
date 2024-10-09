@@ -266,23 +266,32 @@ body{
   align-self: center;
 }
   
+.cart-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.cart-total-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}
+
 .cart-total {
-    margin: 0;
+    margin-right: auto;
 }
 
 .checkout-btn {
     background-color: yellow;
-    border: none;
     padding: 10px 20px;
+    border: none;
+    font-weight: bold;
     cursor: pointer;
 }
-
-.checkout-container{
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 10px;
-}
-
 
 
 
