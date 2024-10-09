@@ -18,7 +18,6 @@ let appleRoll = new Roll("Apple", "Original", 3, 3.49);
 cart.push(originalRoll, walnutRoll, raisinRoll, appleRoll);
 console.log(cart);
 }
-
 initializeCart();
 
 //
@@ -46,8 +45,7 @@ function displayCartItem(roll) {
     cartItemDiv.querySelector('.remove').addEventListener('click', function() {
         removeItemFromCart(roll);
     });
-
-    cartContainer.appendChild(cartItemDiv);
+cartContainer.appendChild(cartItemDiv);
 }
 
 // to display the entire cart
@@ -68,7 +66,6 @@ function removeItemFromCart(rollToRemove) {
     });
         displayCart();
 }
-
 // to calculate the total price
 function calculateTotalPrice() {
     let total = 0;
@@ -93,8 +90,6 @@ console.log(rollType);
 let rollDetails = rolls[rollType];
 let basePrice = rollDetails.basePrice;
 let imageFile = rollDetails.imageFile;
-
-
 //updated title
 document.querySelector('.productdetail-header').innerText = rollType + ' Cinnamon Roll';
 
@@ -120,7 +115,6 @@ let packsizeOptions= [
     {size: 6, priceAdaptation: 5},
     {size: 12, priceAdaptation: 10},
 ]; /*making an array w both pack size options and their price adaptation*/
-
 
 function loadDropdowns(){
     let selectGlazing= document.getElementById("glazing-styles");
@@ -181,4 +175,3 @@ document.querySelector('.add-to-cart-btn').addEventListener('click', function() 
     //to print
     console.log(cart);
 });
-
