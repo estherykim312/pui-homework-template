@@ -181,3 +181,4 @@ document.querySelector('.add-to-cart-btn').addEventListener('click', function() 
     //to print
     console.log(cart);
 });
+
