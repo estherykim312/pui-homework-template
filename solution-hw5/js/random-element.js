@@ -1,7 +1,3 @@
-/*<option value="keep-original">Keep original</option>
-<option value="sugar-milk">Sugar milk</option>
-<option value="vanilla-milk">Vanilla milk</option>
-<option value="double-chocolate">Double chocolate</option> going to move to js*/
 class Roll{
     constructor(rollType, rollGlazing, packSize, rollPrice){
         this.type = rollType;
@@ -47,7 +43,6 @@ function displayCartItem(roll) {
         </div>
     `;
 
-    // Add event listener to the "Remove" button
     cartItemDiv.querySelector('.remove').addEventListener('click', function() {
         removeItemFromCart(roll);
     });
@@ -68,15 +63,10 @@ function displayCart(){
 
 // remmove an item from the cart
 function removeItemFromCart(rollToRemove) {
-    let updatedCart = [];
-    for (let i = 0; i < cart.length; i++) {
-        if (cart[i] !== rollToRemove) {
-            updatedCart.push(cart[i]);
-        }
-    }
-    cart = updatedCart;
-
-    displayCart();
+    cart = cart.filter(function(roll) {
+        return !(roll.type === rollToRemove.type && roll.glazing === rollToRemove.glazing);
+    });
+        displayCart();
 }
 
 // to calculate the total price
@@ -92,8 +82,6 @@ function calculateTotalPrice() {
 }
 
 displayCart();
-//
-
 
 
 let queryString = window.location.search;
@@ -181,18 +169,6 @@ loadDropdowns();
 document.getElementById('glazing-styles').addEventListener('change', glazingUpdate); 
 document.getElementById('pack-size').addEventListener('change', packUpdate);
 
-
-/* now adding roll class// this is the old placement i am removing this and placing it int he front
-
-class Roll {
-    constructor(rollType, rollGlazing, packSize, basePrice) {
-        this.type = rollType;
-        this.glazing = rollGlazing;
-        this.size = packSize;
-        this.basePrice = basePrice;
-    }
-}*/
-
 document.querySelector('.add-to-cart-btn').addEventListener('click', function() {
     //glazing
     let glazing = document.getElementById('glazing-styles').value;
@@ -205,3 +181,4 @@ document.querySelector('.add-to-cart-btn').addEventListener('click', function() 
     //to print
     console.log(cart);
 });
+
