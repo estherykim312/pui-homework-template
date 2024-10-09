@@ -43,7 +43,6 @@ function displayCartItem(roll) {
         </div>
     `;
 
-    // Add event listener to the "Remove" button
     cartItemDiv.querySelector('.remove').addEventListener('click', function() {
         removeItemFromCart(roll);
     });
