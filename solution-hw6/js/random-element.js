@@ -8,19 +8,6 @@ class Roll{
 }
 
 let cart = [];
-
-function initializeCart(){
-let originalRoll = new Roll("Original", "Sugar Milk", 1, 2.49);
-let walnutRoll = new Roll("Walnut", "Vanilla Milk", 12, 3.49);
-let raisinRoll = new Roll("Raisin", "Sugar Milk", 3, 2.99);
-let appleRoll = new Roll("Apple", "Original", 3, 3.49);
-
-cart.push(originalRoll, walnutRoll, raisinRoll, appleRoll);
-console.log(cart);
-}
-initializeCart();
-
-//
 function displayCartItem(roll) {
     let cartContainer = document.querySelector('.cart-body-contents');
 
@@ -45,7 +32,7 @@ function displayCartItem(roll) {
     cartItemDiv.querySelector('.remove').addEventListener('click', function() {
         removeItemFromCart(roll);
     });
-cartContainer.appendChild(cartItemDiv);
+    cartContainer.appendChild(cartItemDiv);
 }
 
 // to display the entire cart
@@ -59,13 +46,14 @@ function displayCart(){
     calculateTotalPrice();
 }
 
-// remmove an item from the cart
+// remove an item from the cart
 function removeItemFromCart(rollToRemove) {
     cart = cart.filter(function(roll) {
         return !(roll.type === rollToRemove.type && roll.glazing === rollToRemove.glazing);
     });
-        displayCart();
+    displayCart();
 }
+
 // to calculate the total price
 function calculateTotalPrice() {
     let total = 0;
@@ -74,7 +62,7 @@ function calculateTotalPrice() {
         total += cart[i].basePrice * cart[i].size;
     }
 
-    //updating total price on the page
+    // updating total price on the page
     document.querySelector('.cart-total .cart-item-price').textContent = '$' + total.toFixed(2);
 }
 
@@ -90,13 +78,10 @@ console.log(rollType);
 let rollDetails = rolls[rollType];
 let basePrice = rollDetails.basePrice;
 let imageFile = rollDetails.imageFile;
-//updated title
+
+// to update title, image + price
 document.querySelector('.productdetail-header').innerText = rollType + ' Cinnamon Roll';
-
-//to update image
 document.getElementById('roll-image').src = '../../assets/products/' + imageFile;
-
-//to update price
 document.getElementById('roll-price').innerText = '$' + basePrice;
 
 
